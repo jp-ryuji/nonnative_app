@@ -1,8 +1,9 @@
 module.exports = {
   "env": {
-    "es6": true
+    "es6": true,
+    "react-native/react-native": true
   },
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended", "plugin:react-native/all"],
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -11,7 +12,8 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "react-native"
   ],
   "rules": {
     "indent": [
