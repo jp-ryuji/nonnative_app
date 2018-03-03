@@ -1,0 +1,3 @@
+rootProject.name = 'nonnative_app'
+
+include ':app'
